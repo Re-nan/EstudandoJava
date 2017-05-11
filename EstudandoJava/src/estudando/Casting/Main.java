@@ -35,63 +35,58 @@ public class Main {
          */
         int i = 10; 
         
-        /**
-         * Ocorre o casting implícito, o JAVA converte o 10 automaticamente para
+        /* Ocorre o casting implícito, o JAVA converte o 10 automaticamente para
          * long, pois qualquer int cabe em um long
          */ 
         long l1 = 10;
         
-        /**
+        /*
          * Atribuindo um long a um long
          */
         long l2 = 10L;
         
-        /**
-         * Ocorre o casting implícito, o JAVA converte o 10 int 
+        /* Ocorre o casting implícito, o JAVA converte o 10 int 
          * automaticamente para double, pois qualquer int cabe em um double
          * Exibe 10.0
          */
         double d1 = 10;
         
-        /**
-         * Ocorre o casting implícito, o JAVA converte o 40 int 
+        /* Ocorre o casting implícito, o JAVA converte o 40 int 
          * automaticamente para float, pois o valor 40 cabe em um float, se
          * fosse um valor muito maior, então não caberia
          * Exibe 40.0
          */
         float f1 = 40;
         
-        /**
-         * Da erro, pois um double é mais abrangente que é um float
-         */
+        //Da erro, pois um double é mais abrangente que é um float         
         //float f2  = 40.0;
         
-        //Para armazenar um double e um floaT precisa de um cast explícito
+        
+        //Para armazenar um double e um float precisa de um cast explícito
         float f2 = 40.0F; //ou float f2 = (float)40.0;
         
         
-        /** O short não possi um qualificador como o long(L) e float(F) então
+        /* O short não possi um qualificador como o long(L) e float(F) então
          * Como eu identifico um número como sendo um short? Basta que eu atribua
-         * ele a uma variavel short. NESSE caso ele não considera o 100 como um
+         * ele a uma variavel short. NESSE CASO ele não considera o 100 como um
          * numero inteiro mas sim como um short
          */
         short s1 = 100;
         
-        /** Da erro pois o numero é muito grande pro tamanho de um short
+        /* Da erro pois o numero é muito grande pro tamanho de um short
          * Ai nesse caso o java entende que o número 100000 é um int, e nesse 
          * caso você tem que fazer o cast explícito e assumir as perdas porém
          * esse número vai dar -31072, TOME CUIDADO ao fazer cast, lembre-se 
-         * da quant máx que um tipo pode receber
-         * 
+         * da quantidade máx que um tipo pode receber
          */
         //short s2 = 100000; //Exibe -31072
+        
         
         // Da um numero negativo todo errado -31072 de 100000
         short s2 = (short)100000;
         
-        /**
-         * Mesmo caso, um byte só aceita um número que seja até 127, já 128 ele 
-         * exibie -128, TOME CUIDADO ap fazer cast explícito
+        /* Mesmo caso, um byte só aceita um número que seja até 127, já 128 ele 
+         * exibie -128, TOME CUIDADO ao fazer cast explícito
          */
         byte b1 = 127; //Exibe 127
         byte b2 = (byte)128; //Exibe -128

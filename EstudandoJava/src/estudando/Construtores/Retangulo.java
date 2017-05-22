@@ -25,6 +25,7 @@ public class Retangulo {
      * são coisas totalmente diferentes. O this() invoca o outro construtor da
      * mesma classe
      */
+    
     public Retangulo() {
         this(4, 3);
 

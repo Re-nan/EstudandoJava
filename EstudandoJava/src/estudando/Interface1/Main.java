@@ -49,7 +49,7 @@ public class Main {
         
         
         AnelBrilhante anel = new AnelBrilhante();
-        Vendendor vendedor = new Vendendor();
+        Vendedor vendedor = new Vendedor();
         vendedor.mostrarPreco(anel);
         vendedor.mostrarPreco(ferrari);
     }

@@ -2,15 +2,14 @@ package estudando.Interface1;
 
 public interface Automovel {
 
-    public  void virarParaEsquerda();
+    public void virarParaEsquerda();
 
     void virarParaDireita();
 
     public void acelerar();
 
-    /**
-     * BONUS DE ESTUDO, tudo isos abaixo compila normalmente, posi o JAVA
-     * interpreta que todo atributo em interface é staic final mas se você 
+    /* BONUS DE ESTUDO, tudo isso abaixo compila normalmente, pois o JAVA
+     * interpreta que todo atributo em interface é static final mesmo se você 
      * não declarar explicitamente
      */
     

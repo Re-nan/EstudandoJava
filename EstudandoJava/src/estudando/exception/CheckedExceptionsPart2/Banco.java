@@ -27,7 +27,10 @@ public class Banco {
             System.out.println("Saldo: " + conta.getSaldo());
             
         }catch(ValorNegativoException ex){//Faço catch da exceção de um tipo(ValorNegativoExceptions) 
-            throw  new BancoException("Erro de saque: Valor negativo!", ex); //e relanço a exceção de outro tipo(BancoException)
+            throw new BancoException("Erro de saque: Valor negativo!", ex); //e relanço a exceção de outro tipo(BancoException)
+            /* Esse obj ex do catch é do tipo ValorNegativoException e ele é passado abaixo no construtor da exceção BancoException
+             * levando em si a exceção original que é do tipo BancoException
+             */
             
         }catch(SaldoInsuficienteException ex){
         	/* Dentro da classe BancoException um dos construtores possuem 2 parametros, 
@@ -36,12 +39,8 @@ public class Banco {
         	 * 
         	 * Throwable é a interface que a classe Exception implementa
         	 * OU SEJA todas as Exceções, até as que você cria, são um Throwable 
-        	 * 
-        	 * O ex é o parametro do tipo Throwable e nele está sendo passado o obj ex
-        	 * que nele contém as informações da exceção podendo usar um ex.getMessage()
-        	 * para capturar está mensagem de "Erro de saque:..."
         	 */
-            throw  new BancoException("Erro de saque: saldo insuficiente!", ex);            
+            throw new BancoException("Erro de saque: saldo insuficiente!", ex);            
         }
     }
      

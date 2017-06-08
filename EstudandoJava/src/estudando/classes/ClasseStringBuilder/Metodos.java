@@ -46,9 +46,6 @@ public class Metodos {
 		System.out.println(nome); //Exibe SP NANER
 		
 		
-		
-		
-		
 
 	}
 

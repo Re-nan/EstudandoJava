@@ -3,9 +3,6 @@ package estudando.classes.ClasseString;
 /* STRING no java não é um tipo primitivo, e sim uma classe
  * As strings são objetos logo são construidas como qualquer
  * outro obj com new()...
- * 
- * Prepare-se para a lavagem cerebral, depois disso você verá
- * que sua vida foi uma mentira
  */
 
 public class Main {
@@ -57,7 +54,12 @@ public class Main {
 		 */
 		
 
-		/* Vamos estudar o Pool de String */
+		/* Vamos entender o Pool de Strings e que isso: 
+		 * String var = "texto" 
+		 * é diferente disso 
+		 * String var = new String("texto")
+		 */
+		
 		String nome1 = "RENAN";
 		String nome2 = "RENAN";
 		/* Ao criar uma String sem utilizar o operador new, o que acontece?
@@ -68,7 +70,7 @@ public class Main {
 		 * para cada string unica que ela encontrar, ela mesmo quem cria o obj no HEAP e também cria
 		 * um endereço a essa String no pool(dentro da piscina) 
 		 * 
-		 * E ai o que acontece? a sua string nome1 passa a ser uma referencia que apontra pro obj "RENAN"
+		 * E ai o que acontece? a sua string nome1 passa a ser uma referencia que aponta pro obj "RENAN"
 		 * que agora está dentro do POOL e se a JVM encontrar String nome2 = "RENAN"? ACONTECE A
 		 * MESMA COISA! só que a JVM entrega a referencia do pool pra sua variavel, então tanto nome1 como nome2
 		 * vão apontar pro "RENAN" que ta dentro do pool e "RENAN" que ta dentro do pool é quem aponta pro 

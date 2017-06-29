@@ -1,4 +1,4 @@
-package estudando.enuns1;
+package estudando.Enuns1;
 
 /* Enums conhecido também como "enumeradores" 
  * 

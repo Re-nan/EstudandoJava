@@ -1,4 +1,4 @@
-package estudando.Interface1;
+package estudando.Interface;
 
 /* INTERFACE define os métodos mas os implementa dentro dela, não é de
  * responsabilidade dela(com exceções de métodos q usam default e static

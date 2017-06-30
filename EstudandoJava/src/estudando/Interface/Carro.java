@@ -1,4 +1,4 @@
-package estudando.Interface1;
+package estudando.Interface;
 
 /* Por extender outra interface, ela está herdando todos os atributos e métodos
  * da interface Automovel

@@ -1,4 +1,4 @@
-package estudando.Interface1;
+package estudando.Interface;
 
 public class Vendedor {
     

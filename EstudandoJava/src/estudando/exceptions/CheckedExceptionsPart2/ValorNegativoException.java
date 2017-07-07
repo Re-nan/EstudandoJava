@@ -1,4 +1,4 @@
-package estudando.exception.CheckedExceptionsPart2;
+package estudando.exceptions.CheckedExceptionsPart2;
 
 //Criando classe exceção para tratar valor negativo
 

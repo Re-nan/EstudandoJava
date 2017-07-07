@@ -1,4 +1,4 @@
-package estudando.exception.CheckedExceptionsPart2;
+package estudando.exceptions.CheckedExceptionsPart2;
 
 /* CheckedExceptions part2
  * Posso dividir as exceções do meu método em classes do tipo Exceptions assim

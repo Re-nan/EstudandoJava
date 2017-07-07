@@ -1,4 +1,4 @@
-package estudando.exception.CheckedExceptionsPart1;
+package estudando.exceptions.CheckedExceptionsPart1;
 
 /* na ContaBancaria ocorre o lançamento de uma das exceptions através de um dos 
  * throw new Exception("O valor para saque é negativo!");

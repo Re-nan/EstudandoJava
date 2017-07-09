@@ -1,4 +1,4 @@
-package estudando.exception.StackTrace1;
+package estudando.exceptions.StackTrace1;
 
 /* Stack Trace(Rastreio de pilha) fornece a causa das exceções, o ponto
  * onde a exceção aconteceu. A Stack Trace se inicia de baixo para cima.

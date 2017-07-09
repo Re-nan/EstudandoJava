@@ -1,4 +1,4 @@
-package estudando.exception.TryCatchFinally;
+package estudando.exceptions.TryCatchFinally;
 
 public class ContaBancaria {
 

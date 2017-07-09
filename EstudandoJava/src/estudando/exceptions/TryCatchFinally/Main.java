@@ -1,4 +1,4 @@
-package estudando.exception.TryCatchFinally;
+package estudando.exceptions.TryCatchFinally;
 
 /* Try Catch Finally
  * Imagine que ao chamar a operação de saque você precise mostrar

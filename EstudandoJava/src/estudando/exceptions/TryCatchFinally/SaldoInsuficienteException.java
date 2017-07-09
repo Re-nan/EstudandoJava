@@ -1,4 +1,4 @@
-package estudando.exception.TryCatchFinally;
+package estudando.exceptions.TryCatchFinally;
 
 //Criando classe exceção para tratar saldo insuficiente
 

@@ -1,4 +1,4 @@
-package estudando.exception.UncheckedException;
+package estudando.exceptions.UncheckedExceptions;
 
 /* UncheckExceptions não são exceções do tipo que você trata com try catch, 
  * mas sim aquelas que você corrige no código

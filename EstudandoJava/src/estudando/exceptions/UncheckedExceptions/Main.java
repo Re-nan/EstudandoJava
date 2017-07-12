@@ -1,4 +1,4 @@
-package estudando.exception.UncheckedException;
+package estudando.exceptions.UncheckedExceptions;
 
 /* UncheckExceptions herdam em algum momento da sua hierarquia de
  * RuntimeException, e por tabela também herdam de Exception que é

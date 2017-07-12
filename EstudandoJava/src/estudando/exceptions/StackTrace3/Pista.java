@@ -1,4 +1,4 @@
-package estudando.exception.StackTrace3;
+package estudando.exceptions.StackTrace3;
 
 /* A classe Pista quem está responsável pela inicialização do
  * obj do tipo Automovel

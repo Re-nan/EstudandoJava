@@ -33,7 +33,7 @@ public class Main {
         Moeda moeda = new Moeda();
         moeda.pegar();
         
-        //Instancia de Moeda e utilizando do seu jeito o metodo herdado da classe abstract
+        //Instancia de Cogumelo e utilizando do seu jeito o metodo herdado da classe abstract
         Cogumelo cogumelo = new Cogumelo();
         cogumelo.pegar();
         

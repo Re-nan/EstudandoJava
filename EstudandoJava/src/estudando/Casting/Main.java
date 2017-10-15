@@ -1,6 +1,6 @@
 package estudando.Casting;
 
-/** Ordem Dos Castings
+/* Ordem Dos Castings
  * byte => short => int => long => float => double
  * 
  * Implícito = O java faz pra você
@@ -10,22 +10,21 @@ package estudando.Casting;
  * todo número com vírgula é um double pro java
  */
 
-/**
- * NÃO EXISTE CASTING para TEXTOS
- * DICA: Não existe casting de Char para String, pois String não é um tipo
- * primitivo, então não posso jogar um char dentro de uma String
- * 
- * Mas  se o char tiver um valor numerico como "char ccc = 65" (que na tabela
- * ASCII representa o 'A'), então a var char pode ser atribuida dentro de uma
- * var do tipo int
- * Ex.
- * char ccc = 65;
- * int iii = ccc;
- * FUNCIONA, agora iiii vale 65
- * 
- * Então a ordem fica: char cabe dentro de int, e int cabe dentro de long, e long de float e etc...
- * char => int => long => float => double
- */
+ /* NÃO EXISTE CASTING para TEXTOS
+  * DICA: Não existe casting de Char para String, pois String não é um tipo
+  * primitivo, então não posso jogar um char dentro de uma String
+  * 
+  * Mas  se o char tiver um valor numerico como "char ccc = 65" (que na tabela
+  * ASCII representa o 'A'), então a var char pode ser atribuida dentro de uma
+  * var do tipo int
+  * Ex.
+  * char ccc = 65;
+  * int iii = ccc;
+  * FUNCIONA, agora iii vale 65
+  * 
+  * Então a ordem fica: char cabe dentro de int, e int cabe dentro de long, e long de float e etc...
+  * char => int => long => float => double
+  */
 
 public class Main {
     public static void main(String[] args) {

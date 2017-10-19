@@ -4,13 +4,13 @@ import java.util.Random;
 
 /* O java é capaz de gerar número randômicos, que na versade são pseudo-randômicos
  * 
- * O que você precisa saber é que quando trabalhos com números randômicos é que uma sequência
+ * O que você precisa saber é que quando trabalhamos com números randômicos é que uma sequência
  * de números randômicos sempre tem origem no que chamamos de cemente, uma cemente(número x) é um número do tipo
  * long e esse número é utilizado em um algoritimo que gera a sequência de números randômicos distribuídos no intervalo que você precisa
  * 
  * Se eu tiver uma cemente de número Y, e colocar este número no gerador de números randômicos ele irá gerar uma nova sequência
  * 
- * AGORA saibe que se você voltar a usar o mesmo número X você terá de volta a mesma sequência do número X anterior, por isso chamamos
+ * AGORA saiba que se você voltar a usar o mesmo número X você terá de volta a mesma sequência do número X anterior, por isso chamamos
  * de "pseudo randômicos"
  * 
  * Somente números cementes iguais geram sequência iguais
@@ -20,12 +20,12 @@ public class Metodos {
 	public static void main(String[] args) {
 		
 		/* Classe Random tem o poder de gerar números randômicos 
-		 * Quando você faz um new Random() esse obj é um capaz de gerar números randômicos
+		 * Quando você faz um new Random() esse obj é capaz de gerar números randômicos
 		 * 
-		 * Quando você utiliza o constrtor vazio, você não precisa se preocupar com a semente, o java vai garantir que a cemente
+		 * Quando você utiliza o construtor vazio, você não precisa se preocupar com a semente, o java vai garantir que a cemente
 		 * utilizada seja diferente de um obj Random anterior, para evitar que a sequência gerada seja a mesma de alguma geração anterior
 		 * 
-		 * Mas também possível definir a cemente no construtor
+		 * Mas também é possível definir a cemente no construtor
 		 */
 		
 		/* nextDouble()
@@ -50,7 +50,7 @@ public class Metodos {
 		 * Além da classe Random, outra forma que você tem é usar o método estático random()
 		 * é mais utilizado por ser mais eficiente para o que as pessoas precisam
 		 * 
-		 * Math.random() sempre gerá números do tipo double, ou seja de 0 a 0.99999... pois insternamente eles instancia e chama
+		 * Math.random() sempre gerá números do tipo double, ou seja de 0 a 0.99999... pois internamente ele instancia e chama
 		 * o método NextDouble da classe Random
 		 */
 		double numeroGerado3 = Math.random();

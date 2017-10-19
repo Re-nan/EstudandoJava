@@ -2,8 +2,6 @@ package estudando.classes.ClasseMath;
 
 import java.util.Random;
 
-
-
 public class NumerosRandomicos {
 	public static void main(String[] args) {
 		
@@ -15,7 +13,6 @@ public class NumerosRandomicos {
 			int n = r1.nextInt(5); //passo 100 pois o ultimo número nunca é sorteado
 			
 			System.out.println((i+1) + " => " + n); 
-	
 		}
 		
 		System.out.println();
@@ -28,7 +25,6 @@ public class NumerosRandomicos {
 			int n = r2.nextInt(100); //passo 100 pois o ultimo número nunca é sorteado
 			
 			System.out.println((i+1) + " => " + n);
-			
 		}
 		
 		System.out.println();

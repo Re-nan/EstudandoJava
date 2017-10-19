@@ -86,7 +86,7 @@ public class Main {
 		 * 
 		 * Portando sempre que eu NÃO UTILIZO o operador new para criar as strings, eu estou relacionando
 		 * a minha variavel com strings que já estão dentro do pool usando um único endereço de memória, podendo ter
-		 * 10 mil variáveis strings com o mesmo valor que ainda assime staria usando um único endereço no heap
+		 * 10 mil variáveis strings com o mesmo valor que ainda assim estaria usando um único endereço no heap
 		 */
 		
 		/* Você viu que você tem nome1 e nome2 compartilhando o mesmo valor, mesmo endereço, mesmo obj na memória
@@ -113,7 +113,7 @@ public class Main {
 		 */
 		nome1 = nome1.toLowerCase();
 		
-		/* Para comparar valor de atributos strings devo usar o equal()*/
+		/* Para comparar valor de atributos strings devo usar o equals()*/
 		System.out.println(nome1.equals("renan")); //true
 		
 		/* == compara se a referencia nome1 apontar pro mesmo endereço na memória que "renan" independente deles conterem

@@ -5,9 +5,6 @@ package estudando.classes.ClasseObject;
  * outra, o java automaticamente faz ela herdar de Object
  * 
  * Object é a superclasse(classe mãe) de todas as classes do java
- *   
- * @author renan
- *
  */
 
 public class Main {
@@ -49,7 +46,7 @@ public class Main {
 		 * o local que ta e depois o equals
 		 * 
 		 * a regra é, se você for implementar o hashCode para criar sua 
-		 * prória lógica de hash, você deve implementar o equal também
+		 * prória lógica de hash, você deve implementar o equals também
 		 * e vice e versa, se implementou o equals na sua classe, então
 		 * implemente o hashCode também, essa é a boa prática, mas se
 		 * quiser pode usar o hashCode e equals como já são por padrão

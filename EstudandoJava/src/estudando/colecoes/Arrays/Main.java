@@ -11,7 +11,7 @@ package estudando.colecoes.Arrays;
  * 
  * 
  * Suas DESVANTAGENS, depois de criado não é possível modificar o tamanho do
- * array, ou seja se você crar um de tamanho 5, ele só poderá conter 5 valores
+ * array, ou seja se você criar um de tamanho 5, ele só poderá conter 5 valores
  * e nada mais
  * 
  * é difícil encontrar elementos dentro de um array quando o indice não é conhecido

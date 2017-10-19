@@ -20,8 +20,6 @@ import java.util.List;
  * 
  * A lista cresce conforme o necessário, diferentemente do Array
  * 
- * 
- * 
  */
 
 public class Main {
@@ -58,8 +56,8 @@ public class Main {
 		
 		System.out.println();
 		
-		/* Para percorrer uma lista além foreach podemos usar também o que chamamos de ITERATOR
-		 * A interface List tem o metodo Iterator que retorna um obj da interface Iteratore, lembrando que
+		/* Para percorrer uma lista além do foreach podemos usar também o que chamamos de ITERATOR
+		 * A interface List tem o metodo Iterator que retorna um obj da interface Iterator, lembrando que
 		 * List é filho de Iterator, ou seja Iterator é super classe de List, uma interface que implementa outra
 		 * 
 		 * Como ArrayList implementa a interface List que por sua via implementa a interface Iterator um
@@ -71,7 +69,7 @@ public class Main {
 		 * 
 		 */
 		
-		/* por estar trabalhando com vários tipos na mesma lista eu usando Object, mas se fosse uma lista de
+		/* por estar trabalhando com vários tipos na mesma lista e usando Object, mas se fosse uma lista de
 		 * Strings eu poderia usar Strings, ou int se fosse uma lista só de números
 		 */
 		Iterator iter = lista.iterator();

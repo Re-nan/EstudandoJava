@@ -6,7 +6,7 @@ import java.util.Iterator;
 import java.util.List;
 
 /* A partir da veersão 5 do java foi introduzindo os GENERICS
- * Os generics permitemr estringir os tipos de dados em coleções, só sabemos que todas as coleções
+ * Os generics permitemr restringir os tipos de dados em coleções, só sabemos que todas as coleções
  * do java são genéricas, elas trabalham só com tipo Object, quando você usa generics você consegue
  * restringir um tipo de dado para um mais específico, então você não precisa trabalhar apenas com
  * Object e sim com o tipo de dado que você especificou
@@ -42,7 +42,7 @@ public class Main {
 		lista.add("Bernardo");
 		//lista.set(2,"ROGER"); o SET substitui o valor do indice pelo novo valor
 		lista.add(2,"ROGER");
-		lista.add(3, "Nick"); // o add poem o valor no indice e o que tava antes no indice ele empurra pra direita/baixo
+		lista.add(3, "Nick"); // o add poem o valor no indice, e o que tava antes no indice ele empurra pra direita/baixo
 		
 		/* Da erro o java avisa em tempo de compilação que essa lista só pode receber tipos
 		 * Strings e não de inteiros
@@ -76,7 +76,7 @@ public class Main {
 		
 		
 		/* ORDERNANDO ELEMENTOS NA LISTA
-		 * O java permite que os elementos de um Arraylist sejam ordenador de acordo com algum criterio
+		 * O java permite que os elementos de um Arraylist sejam ordenados de acordo com algum criterio
 		 * No caso de listas a classe Collection tem o método estático sort que ordena as lista
 		 * Collection.sort(lista)
 		 * 

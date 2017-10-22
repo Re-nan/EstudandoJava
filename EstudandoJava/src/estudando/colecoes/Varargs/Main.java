@@ -1,7 +1,6 @@
 package estudando.colecoes.Varargs;
 
 /* varargs permitem que métodos possam receber um número variável de parametros
- * 
  */
 
 public class Main {
@@ -11,7 +10,7 @@ public class Main {
 		System.out.println(somar(10,20)); //30
 		System.out.println(somar(10,20,30)); //60
 		
-		/* perceba que pro java de fato é como se você passassse um array */
+		/* perceba que pro java de fato é como se você passasse um array */
 		int[] array = {1, 2,3, 4};
 		System.out.println(somar(array)); //10
 		
@@ -41,13 +40,13 @@ public class Main {
 		 * parametro, então tenho que varrer o vetor e somar tudo o que tiver nele
 		 */
 		int soma = 0;
-		for(int valor: valores){
+		for(int valor : valores){
 			soma += valor;
 		}
 		return soma;
 	}
 	 
-	 /* você pode misturar varargs como parametros normais, porém os vargs TEM QUE
+	 /* você pode misturar varargs como parametros normais, porém os varargs TEM QUE
 	  * serem sempre os ultimos parametros declarados no método
 	  */
 	 static int somar2(int n1, int... valores){

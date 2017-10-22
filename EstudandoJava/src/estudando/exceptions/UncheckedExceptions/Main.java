@@ -18,7 +18,7 @@ public class Main {
         /* metodo que compara se a referencia de o1 é a mesma que de o2
          * Daria erro Exception in thread "main" java.lang.NullPointerException
          * caso passasse null no lugar de um dos parametros, mas como o metodo
-         * TRATA a entrade de obj null
+         * TRATA a entrada de obj null
          */
         System.out.println("Tratando no método");
         boolean iguais = Comparador.comparar(o1, o2);

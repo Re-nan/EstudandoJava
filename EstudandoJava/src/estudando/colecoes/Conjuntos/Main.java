@@ -5,8 +5,6 @@ import java.util.LinkedHashSet;
 import java.util.Set;
 import java.util.TreeSet;
 
-import javax.print.DocFlavor.STRING;
-
 /* Conjuntos funcionam de forma semelhante a da Matemática
  * 
  * Conjuntos não permitem elementos duplicados como acontecem nas listas, se conter
@@ -22,6 +20,7 @@ import javax.print.DocFlavor.STRING;
  * 
  * 
  */
+
 public class Main {
 	public static void main(String[] args) {
 

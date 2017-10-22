@@ -35,7 +35,7 @@ public class Main {
 		 * o seu main remova o catch e lance exceção para a JVM usando throws
 		 * ao lado do método main, e mantendo os blocos try e finally, percebe
 		 * que antes de lançar a exceção pra JVM pelo throws ele executa primeiro
-		 * o finally garantindo a execução de um bloco de código ates de 'crashar'
+		 * o finally garantindo a execução de um bloco de código antes de 'crashar'
 		 * a aplicação
 		 */
 	}

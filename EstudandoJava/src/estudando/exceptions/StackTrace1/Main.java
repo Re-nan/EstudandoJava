@@ -3,7 +3,7 @@ package estudando.exceptions.StackTrace1;
 /* Stack Trace(Rastreio de pilha) fornece a causa das exceções, o ponto
  * onde a exceção aconteceu. A Stack Trace se inicia de baixo para cima.
  *
- * Em Stack Trace maiores pe aconselhável olhar a primeira linha do topo 
+ * Em Stack Trace maiores é aconselhável olhar a primeira linha do topo 
  * ela é causa mais genérica da exceção, ai você vai descendo pra próxima
  * linha até encontrar um Caused by e depois o outro e assim por diante
  */

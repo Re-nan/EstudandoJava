@@ -14,8 +14,13 @@ package estudando.Abstract;
  */ 
  
 /* Método abstratos são utilizados quando não faz sentido termos a implementação
- * do método em determinada classe. 
- * Não são implementados public abstract void pegar();
+ * do método em determinada classe abstrata. 
+ * Ficam implementados como: public abstract void pegar();
+ * e quem herda essa classe abstract tem por obrigação implementar este método
+ * Atenção: Se eu quiser extender uma classe abstrata E NÃO QUISER implementar o
+ * método abstrato dela, então essa minha classe que herda d eabstract tem que 
+ * também ser abstrata e aí sim quem herdar essa minha segunda classe abstrata é
+ * quem vai implementar os métodos abstratos da minha primeira classe abstrata
  */
 
 /* Classes abstratas não precisam obrigatoriamente ter métodos abstratos, a classe

@@ -1,4 +1,4 @@
-package estudando.exceptions.StackTrace3;
+package estudando.exceptions.StackTrace4;
 
 public class Main {
 	public static void main(String[] args) {

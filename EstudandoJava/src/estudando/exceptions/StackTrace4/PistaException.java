@@ -1,4 +1,4 @@
-package estudando.exceptions.StackTrace3;
+package estudando.exceptions.StackTrace4;
 
 
 @SuppressWarnings("serial")

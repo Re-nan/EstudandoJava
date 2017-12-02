@@ -1,4 +1,4 @@
-package estudando.exceptions.StackTrace2;
+package estudando.exceptions.StackTrace3;
 
 public class Automovel {
 	

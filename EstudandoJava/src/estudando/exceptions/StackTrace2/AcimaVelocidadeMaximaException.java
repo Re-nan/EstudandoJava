@@ -1,4 +1,4 @@
-package estudando.exceptions.StackTrace1;
+package estudando.exceptions.StackTrace2;
 
 @SuppressWarnings("serial")
 public class AcimaVelocidadeMaximaException extends Exception {

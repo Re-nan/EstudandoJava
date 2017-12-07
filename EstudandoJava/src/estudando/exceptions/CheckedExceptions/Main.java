@@ -1,4 +1,4 @@
-package estudando.exceptions.CheckedExceptionsPart1;
+package estudando.exceptions.CheckedExceptions;
 
 /* na ContaBancaria ocorre o lançamento de uma das exceptions através de um dos 
  * throw new Exception("O valor para saque é negativo!");
@@ -13,7 +13,6 @@ package estudando.exceptions.CheckedExceptionsPart1;
  */
 
 public class Main {
-
     public static void main(String[] args) {
 
         Banco banco = new Banco();
@@ -26,5 +25,6 @@ public class Main {
         	 */
             System.out.println("Ocorreu um Erro: " + ex.getMessage());
         }
+        
     }
 }

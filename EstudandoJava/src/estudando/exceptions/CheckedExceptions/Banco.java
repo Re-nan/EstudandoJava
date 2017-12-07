@@ -1,4 +1,4 @@
-package estudando.exceptions.CheckedExceptionsPart1;
+package estudando.exceptions.CheckedExceptions;
 
 public class Banco {
 

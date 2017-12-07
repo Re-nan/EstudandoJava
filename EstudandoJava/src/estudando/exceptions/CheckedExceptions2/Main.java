@@ -1,11 +1,10 @@
-package estudando.exceptions.CheckedExceptionsPart2;
+package estudando.exceptions.CheckedExceptions2;
 
-/* CheckedExceptions part2
+/* CheckedExceptions2
  * Posso dividir as exceções do meu método em classes do tipo Exceptions assim
  * podendo reutilizar mais de uma vez caso necessário, e fácil manutenção
  */
 public class Main {
-
     public static void main(String[] args) {
         
         Banco banco = new Banco();

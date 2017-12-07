@@ -1,4 +1,4 @@
-package estudando.exceptions.CheckedExceptionsPart2;
+package estudando.exceptions.CheckedExceptions2;
 
 //Criando classe exceção para tratar saldo insuficiente
 

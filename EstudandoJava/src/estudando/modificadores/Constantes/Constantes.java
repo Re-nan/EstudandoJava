@@ -1,4 +1,4 @@
-package estudando.Constantes;
+package estudando.modificadores.Constantes;
 
 public class Constantes {
     

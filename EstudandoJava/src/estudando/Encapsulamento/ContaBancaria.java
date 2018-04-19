@@ -1,5 +1,14 @@
 package estudando.Encapsulamento;
 
+/* - Os Get e Set protegem os atributos de serem acessados externamente, podem serem
+ * acessados apenas pelos seus get e set
+ * 
+ * - Evitam mudança de código em diversos lugares(Ex. mudarnome do atributo, você pode
+ * mudar em um lugar só na classe mesmo, e não em todos que chamam esse atributo
+ * 
+ * - Você não precisa ter get e set para tudo, apenas para o que se vai usar
+ */
+
 public class ContaBancaria {
 	
     private int numConta;
@@ -45,6 +54,6 @@ public class ContaBancaria {
     public void setSaldo(double saldo) {
         this.saldo = saldo;
     }
-    
+      
     
 }

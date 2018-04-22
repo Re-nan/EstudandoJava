@@ -13,5 +13,6 @@ public class Main {
         System.out.println("Construtor(double, double)");
         Retangulo r2 = new Retangulo(6, 2);
         System.out.println(r2.calcularArea());
+        
     }
 }

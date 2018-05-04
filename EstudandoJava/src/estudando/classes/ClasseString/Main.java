@@ -1,6 +1,6 @@
 package estudando.classes.ClasseString;
 
-/* STRING no java não é um tipo primitivo, e sim uma classe
+/* STRING no java não é um tipo primitivo, e sim um tipo classe
  * As strings são objetos logo são construidas como qualquer
  * outro obj com new()...
  */
@@ -53,6 +53,18 @@ public class Main {
 		 * para o mesmo obj do tipo String abc2 na memória >>HEAP<<
 		 */
 		
+		/* COMO O JAVA LIDA COM A MEMÓRIA
+		 * As variáveis da >>STACK<< são limpas da memória assim que o método termina, na >>STACK<< não tem
+		 * Garbage Collector
+		 * 
+		 * Já ao não ter mais uma variavel da >>STACK<< apontando para algum endereço de memória no >>HEAP<<
+		 * as variáveis do >>HEAP<< são limpas da memória pelo Garbage Colector, ele é um serviço da JVM
+		 * que executa em segundo plano, fica procurando objs no heap que não são mais utilizados pela
+		 * aplicação e os remove, sendo assim liberando a memória antes ocupada
+		 * 
+		 * Como desenvolvedor você não tem controle sobre o Garbage Collector, apenas a JVM é quem o
+		 * controla
+		 */
 
 		/* Vamos entender o Pool de Strings e que isso: 
 		 * String var = "texto" 
@@ -91,7 +103,7 @@ public class Main {
 		
 		/* Você viu que você tem nome1 e nome2 compartilhando o mesmo valor, mesmo endereço, mesmo obj na memória
 		 * então se eu mudar o valor de RENAN pra JOÃO isso mudaria o valor de todas as minhas váriáveis que apontavam
-		 * pro mesmo valor RENAN no pool? SIM, EXATAMENTE, mas isso não acontece no JAVA porque Strings são IMUTÁVEIS,
+		 * pro mesmo valor RENAN no pool? SIM, EXATAMENTE, mas isso NÃO ACONTECE no JAVA porque Strings são IMUTÁVEIS,
 		 * depois de criada uma string NUNCA TEM SEU VALOR ALTERADO!
 		 */
 		

@@ -19,14 +19,17 @@ public class Main {
 		 * As classes podem sobrescrever este método para mostrarem
 		 * uma mensagem que as representem
 		 * o método System.out.prinltn(), por exemplo, usa este método
+		 * Sempre que você passa um obj para dentro do println() ele vai
+		 * chamar o toString do obj
 		 */
 		System.out.println();
 		
 		
 		/* equals()
-		 * É a forma que o java tem de comparar ojetos pelo seu conteúdo
+		 * É a forma que o java tem de comparar objetos pelo seu conteúdo
 		 * ao invés de comparar as referências(como acontece ao usarmos
-		 * "==")
+		 * "==") Lembrando que o == compara se o endereço de memória dos
+		 * obj são os mesmos
 		 */
 		System.out.println();
 		

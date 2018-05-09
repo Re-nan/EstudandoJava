@@ -1,4 +1,4 @@
-package estudando.Heranca;
+package estudando.poo.Heranca;
 
 public class Veiculo {
     private String marca;

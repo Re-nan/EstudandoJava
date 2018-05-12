@@ -8,14 +8,14 @@ package estudando.poo.Heranca;
  * Herenaça é uma relação que chamamos de "É UM" (Ex. Cachorro e Gato É UM Animal logo Chacorro
  * e Gato herdam de Animal)
  * 
- * Toda classe java pode herdar somente uma classe, independente de você dedefinir ou não uma 
- * classe para herdar o Java herda automaticamento de Object, direta ou indiretamente
+ * Toda classe java pode herdar somente uma classe, independente de você definir ou não uma 
+ * classe para herdar, o Java herda automaticamento de Object, direta ou indiretamente
  * 
- * OVERRIDING quando uma classe herda d eoutra ela pode sobrescrever/redefinir os métodos da 
+ * OVERRIDING quando uma classe herda de outra ela pode sobrescrever/redefinir os métodos da 
  * classe que ela herdou, VANTAGEM: na super classe pode ter um código genérico, e na sub classe
  * pode sobreescrever para um códgigo específico
  * 
- * Se a classe mãe mãe tem o metodo telefonar() e a classe filha tem o método telefonar(int nr)
+ * Se a classe mãe tem o metodo telefonar() e a classe filha tem o método telefonar(int nr)
  * então não há sobreescrita, para ser considerado sobreescrita os métodos precisam terem a mesma
  * assinatura(tipo de retorno, nome do metodo, mesma qtd e tipo dos parametros)
  * 

@@ -1,4 +1,4 @@
-package estudando.Interface;
+package estudando.poo.Interface;
 
 public interface ItemCaro {
     

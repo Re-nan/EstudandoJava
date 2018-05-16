@@ -1,4 +1,4 @@
-package estudando.Construtores;
+package estudando.poo.Construtores;
 
 public class Main {
 

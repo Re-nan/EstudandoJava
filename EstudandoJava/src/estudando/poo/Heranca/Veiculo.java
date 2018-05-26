@@ -5,35 +5,35 @@ public class Veiculo {
     private String modelo;
     private int ano;
 
-    public String getMarca() {
+    protected String getMarca() {
         return marca;
     }
 
-    public void setMarca(String marca) {
+    protected void setMarca(String marca) {
         this.marca = marca;
     }
 
-    public String getModelo() {
+    protected String getModelo() {
         return modelo;
     }
 
-    public void setModelo(String modelo) {
+    protected void setModelo(String modelo) {
         this.modelo = modelo;
     }
 
-    public int getAno() {
+    protected int getAno() {
         return ano;
     }
 
-    public void setAno(int ano) {
+    protected void setAno(int ano) {
         this.ano = ano;
     }
     
-    public void buzinar(){
+    protected void buzinar(){
         System.out.println("buzinando");
     }
     
-    public void imprimirDados(){
+    protected void imprimirDados(){
         System.out.println("Marca: " + marca);
         System.out.println("Modelo: " + modelo);
         System.out.println("Ano: " + ano);

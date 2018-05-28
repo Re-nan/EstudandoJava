@@ -1,6 +1,7 @@
 package estudando.poo.Heranca;
 
 public class Veiculo {
+	
     private String marca;
     private String modelo;
     private int ano;
@@ -38,4 +39,5 @@ public class Veiculo {
         System.out.println("Modelo: " + modelo);
         System.out.println("Ano: " + ano);
     }
+    
 }

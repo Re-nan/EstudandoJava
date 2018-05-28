@@ -3,7 +3,7 @@ package estudando.poo.Heranca;
 public class Moto extends Veiculo{
     
     void empinar(){
-        System.out.println("Empinanooo Uhuuuu");
+        System.out.println("Empinandooo Uhuuuu");
     }
 
     @Override
@@ -12,6 +12,5 @@ public class Moto extends Veiculo{
         System.out.println("Modelo: " + getModelo());
         System.out.println("Ano: " + getAno());
     }
-    
     
 }

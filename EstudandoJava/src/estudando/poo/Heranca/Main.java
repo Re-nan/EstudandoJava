@@ -22,6 +22,7 @@ package estudando.poo.Heranca;
  * SUPER o método que foi sobreescrito/redefinido pode acessar o método original através da palavra
  * super, Ex dentro do método que deu override usar super.NomeDoMetodo 
  */
+
 public class Main {
     public static void main(String[] args){
     	
@@ -41,6 +42,15 @@ public class Main {
         carro.buzinar();
         carro.imprimirDados();
         
+        System.out.println("");
+        
+        System.out.println("--- Moto ---");
+        Moto moto = new Moto();
+        moto.setMarca("Yamaha");
+        moto.setModelo("Fazer");
+        moto.setAno(2018);
+        moto.buzinar();
+        moto.imprimirDados();   
         
     }
 }

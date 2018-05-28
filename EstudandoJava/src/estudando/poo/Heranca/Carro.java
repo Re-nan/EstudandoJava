@@ -28,5 +28,4 @@ public class Carro extends Veiculo{
         System.out.println("Número de portas: " + getNumeroPortas());
     }
     
-
 }

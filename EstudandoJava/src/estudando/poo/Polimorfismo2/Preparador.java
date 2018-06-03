@@ -1,10 +1,10 @@
-package estudando.Polimorfismo2;
+package estudando.poo.Polimorfismo2;
 
 public class Preparador {
 
-	/* Veja como é insteressante você referenciar uma determinado obj
-	 * pra um mais genérico, pois se eu passasse LeiteQuente ao invés
-	 * Bebida, eu só conseguiria prepararBebida do tipo LeiteQuente
+	/* Veja como é interessante você referenciar um determinado obj
+	 * para um mais genérico, pois se eu passasse LeiteQuente ao invés
+	 * de Bebida, eu só conseguiria prepararBebida do tipo LeiteQuente
 	 */
     public void prepararBebida(Bebida bebida) {
         System.out.println("Preparando a bebida " + bebida.getNome());

@@ -1,6 +1,6 @@
-package estudando.Polimorfismo2;
+package estudando.poo.Polimorfismo2;
 
-public class Bebida {
+public abstract class Bebida {
 
     private String nome;
     private boolean aquecer;

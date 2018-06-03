@@ -1,4 +1,4 @@
-package estudando.Polimorfismo2;
+package estudando.poo.Polimorfismo2;
 
 public class LeiteQuente extends Bebida{
     
@@ -15,7 +15,7 @@ public class LeiteQuente extends Bebida{
     @Override
     public void preparar() {
         System.out.println("Pegando um copo");
-        System.out.println("Colando o leite no copo");
+        System.out.println("Colocando o leite no copo");
     }
     
     

@@ -1,4 +1,4 @@
-package estudando.Encapsulamento;
+package estudando.poo.Encapsulamento;
 
 public class Main {
     public static void main(String[] args){

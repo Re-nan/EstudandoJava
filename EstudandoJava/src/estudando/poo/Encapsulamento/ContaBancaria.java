@@ -1,4 +1,4 @@
-package estudando.Encapsulamento;
+package estudando.poo.Encapsulamento;
 
 /* - Os Get e Set protegem os atributos de serem acessados externamente, podem serem
  * acessados apenas pelos seus get e set

@@ -18,14 +18,14 @@ package estudando.Abstract;
  * Ficam implementados como: public abstract void pegar();
  * e quem herda essa classe abstract tem por obrigação implementar este método
  * Atenção: Se eu quiser extender uma classe abstrata E NÃO QUISER implementar o
- * método abstrato dela, então essa minha classe que herda d eabstract tem que 
+ * método abstrato dela, então essa minha classe que herda de abstract tem que 
  * também ser abstrata e aí sim quem herdar essa minha segunda classe abstrata é
  * quem vai implementar os métodos abstratos da minha primeira classe abstrata
  */
 
 /* Classes abstratas não precisam obrigatoriamente ter métodos abstratos, a classe
  * pode conter métodos abstratos(os sem implementação) como também métodos normais
- * (com implmentação)
+ * (com implementação)
  * PORÉM... métodos abstratos SÓ PODEM existir em classes abstratas, pois não tem
  * como eu ter um método abstract(sem implementação) em uma classe que pode ser
  * instanciada

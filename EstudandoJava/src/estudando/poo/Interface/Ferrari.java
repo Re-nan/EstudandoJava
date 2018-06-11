@@ -1,6 +1,6 @@
 package estudando.poo.Interface;
 
-public class Ferrari implements Carro, ItemCaro{
+public class Ferrari implements Carro, ItemCaro {
 
     @Override
     public void virarParaEsquerda() {

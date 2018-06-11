@@ -1,6 +1,6 @@
 package estudando.poo.Interface;
 
-public class AnelBrilhante implements ItemCaro{
+public class AnelBrilhante implements ItemCaro {
     
     @Override
     public double getPreco(){

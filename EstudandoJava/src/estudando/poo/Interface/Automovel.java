@@ -2,11 +2,16 @@ package estudando.poo.Interface;
 
 public interface Automovel {
 
+	/* Todo método por padrão dentro de uma interface são públicos, usar o 
+	 * modificador explicito é opcional
+	 */
+	
     public void virarParaEsquerda();
 
     void virarParaDireita();
 
     public void acelerar();
+    
 
     /* BONUS DE ESTUDO, tudo isso abaixo compila normalmente, pois o JAVA
      * interpreta que todo atributo em interface é static final mesmo se você 

@@ -9,7 +9,7 @@ package estudando.poo.Interface;
  * 
  * Assim como uma SubClasse é do tipo da Superclasse também
  */
-public interface Carro extends Automovel{
+public interface Carro extends Automovel {
     
     void abrirPorta();
 }

@@ -1,8 +1,8 @@
 package estudando.poo.Interface;
 
-/* INTERFACE define os métodos mas os implementa dentro dela, não é de
- * responsabilidade dela(com exceções de métodos q usam default e static
- * dentro dela)
+/* INTERFACE define os métodos mas não os implementa dentro dela, não é de
+ * responsabilidade dela(com exceções de métodos q usam default e static e
+ * private dentro dela)
  * A diferença entre um e outro está na chamada, que um pode ser usado como
  * instancia da classe que implementa a interface  e o outro como statico
  * mesmo "Interface.metodo()"
@@ -14,9 +14,19 @@ package estudando.poo.Interface;
  * Interfaces não possuem atributos, só constantes
  * Interfaces podem extender outras interfaces
  * 
- * Diferença Classe Abstract X Interface
- * a diferença é que classe abstrata pode conter atributos sem serem staticos
- * final, e na interface tem que serem staticos e final
+ * Diferença entre Classe ABSTRATA X INTERFACE
+ * A diferença é que classe abstrata pode conter: 
+ * - atributos tanto estáticos final
+ * assim como atributos normais
+ * - E métodos com ou sem implementação
+ * - Uma classe abtsrata é uma classe normal do java, só que não pode ser instanciada
+ * 
+ * E na interface: 
+ * - Todo atributo é static e final mesmo que você não explicite isso
+ * - pode ter métodos não implementados, implementados, estáticos, e privados
+ * 
+ * Uma classe abstrata sem atributos e só com métodos abstratos é a mesma coisa que 
+ * uma Interface
  */
 
 /* DICA: Veja o que todas as classes da sua regra de negócio tem em comum e
@@ -32,7 +42,8 @@ package estudando.poo.Interface;
  */
 
 public class Main {
-    public static void main(String[] args){
+	
+    public static void main(String[] args) {
         
     	/* Se uma classe implementar uma interface, então essa classe é do 
     	 * tipo da interface, então Ferrari É UM Automóvel
@@ -52,5 +63,6 @@ public class Main {
         Vendedor vendedor = new Vendedor();
         vendedor.mostrarPreco(anel);
         vendedor.mostrarPreco(ferrari);
+        
     }
 }

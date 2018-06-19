@@ -1,4 +1,4 @@
-package estudando.Interface2;
+package estudando.poo.Interface2;
 
 public class Ferrari implements Automovel {
 

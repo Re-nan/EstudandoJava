@@ -1,9 +1,9 @@
-package estudando.Interface3;
+package estudando.poo.Interface3;
 
-public class Diretor extends Funcionario implements Autenticavel{
+public class Cliente implements Autenticavel {
 
 	private String senha;
-
+	
 	public String getSenha() {
 		return senha;
 	}

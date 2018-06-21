@@ -1,4 +1,4 @@
-package estudando.Interface3;
+package estudando.poo.Interface3;
 
 /* Interfaces representam uma barreira no aprendizado do Java: parece que estamos escrevendo um código que não serve
  * pra nada, já que teremos essa linha (a assinatura do método) escrita nas nossas classes implementadoras. Essa é uma

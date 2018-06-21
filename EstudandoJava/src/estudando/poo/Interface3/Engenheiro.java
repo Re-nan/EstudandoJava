@@ -1,4 +1,4 @@
-package estudando.Interface3;
+package estudando.poo.Interface3;
 
 public class Engenheiro extends Funcionario {
 

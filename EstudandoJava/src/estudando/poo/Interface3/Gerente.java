@@ -1,6 +1,6 @@
-package estudando.Interface3;
+package estudando.poo.Interface3;
 
-public class Cliente implements Autenticavel {
+public class Gerente extends Funcionario implements Autenticavel {
 
 	private String senha;
 	
@@ -12,7 +12,7 @@ public class Cliente implements Autenticavel {
 		this.senha = senha;
 	}
 
-	
+
 	
 	@Override
 	public boolean autenticar(String senha) {
@@ -22,4 +22,5 @@ public class Cliente implements Autenticavel {
 		
 		return true;
 	}
+	
 }

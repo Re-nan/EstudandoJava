@@ -1,4 +1,4 @@
-package estudando.Interface3;
+package estudando.poo.Interface3;
 
 /* Aqui temos uma sistema aonde só pode logar nele quem for Gerente, Diretor ou Cliente, quem não for NÃO PODE
  * 

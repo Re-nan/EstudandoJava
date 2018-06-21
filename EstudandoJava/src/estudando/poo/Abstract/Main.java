@@ -1,4 +1,4 @@
-package estudando.Abstract;
+package estudando.poo.Abstract;
 
 /* Classes abstratas são utilizadas quando não faz sentido termos instancias
  * de determinadas classes, se por algum motivo vc quer barrar a criação de

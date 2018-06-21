@@ -1,4 +1,4 @@
-package estudando.Abstract;
+package estudando.poo.Abstract;
 
 public abstract class Item {
     

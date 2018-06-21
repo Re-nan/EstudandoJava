@@ -1,4 +1,4 @@
-package estudando.Polimorfismo;
+package estudando.poo.Polimorfismo;
 
 /* POLIMORFISMO é a capacidade que um método tem  de agir de diferentes formas
  * dependendo do objeto sobre o qual  está sendo chamado.

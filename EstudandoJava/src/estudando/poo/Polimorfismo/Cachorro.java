@@ -1,4 +1,4 @@
-package estudando.Polimorfismo;
+package estudando.poo.Polimorfismo;
 
 public class Cachorro extends Animal {
 

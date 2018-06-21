@@ -1,4 +1,4 @@
-package estudando.Abstract3;
+package estudando.poo.Abstract3;
 
 public abstract class Conta {
 

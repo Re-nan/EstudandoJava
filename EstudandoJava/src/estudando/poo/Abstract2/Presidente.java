@@ -1,4 +1,4 @@
-package estudando.Abstract2;
+package estudando.poo.Abstract2;
 
 public class Presidente extends Funcionario {
 

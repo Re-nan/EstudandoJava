@@ -1,4 +1,4 @@
-package estudando.Abstract2;
+package estudando.poo.Abstract2;
 
 /* Estamos utilizando aqui a classe TotalizadorDeBonus para o polimorfismo. Se não fosse ela,
  * teríamos um grande prejuízo: precisaríamos criar um método adicionar para receber o

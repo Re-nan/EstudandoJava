@@ -1,4 +1,4 @@
-package estudando.Enuns2;
+package estudando.poo.Enuns2;
 
 public enum Sexo {
 	

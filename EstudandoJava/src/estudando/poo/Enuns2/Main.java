@@ -1,4 +1,4 @@
-package estudando.Enuns2;
+package estudando.poo.Enuns2;
 
 /* Enuns possuem diversos métodos estáticos
  */

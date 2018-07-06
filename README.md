@@ -6,5 +6,5 @@ Projeto de estudo onde abordo os diversos elementos que compõe o Java e POO com
 
 **Jdk:** 10.0.1
 
-**IDE:** Eclipse Neon
+**IDE:** Eclipse Photon
 

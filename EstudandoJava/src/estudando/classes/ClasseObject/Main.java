@@ -4,16 +4,89 @@ package estudando.classes.ClasseObject;
  * chamada de SUPERCLASSE. Se você não herdar sua classe de nenhuma
  * outra, o java automaticamente faz ela herdar de Object
  * 
- * Object é a superclasse(classe mãe) de todas as classes do java
+ * Object é a superclasse(classe mãe) de todas as classes do java, então
+ * independete de você herdar uma ou várias classes, essas classes todas 
+ * herdam de Object e a sua herda Object por tabela
  */
 
 public class Main {
 
 	public static void main(String[] args) {
 		
-		Object obj = new Object();
-		String nome = "RENAN";
-		Integer n1 = 10; 
+		/* Um tipo Object pode apontar para qualquer "tipo classe" na memória,
+		 * seja String, Integer, Boolean ou classes Pessoa, Animal, Curso e etc
+		 * 
+		 * Se você atribuir um tipo primitivo para um Object o Java na verdade
+		 * está fazendo autoboxing daquele tipo, veja:
+		 */
+		
+		// Object objString = (String) "teste";  ou 
+		// Object objString = new String("teste")
+		Object objString = "teste"; 
+		System.out.println(objString.getClass());
+		
+		
+		// Object objInt = (int)2; ou 
+		// Object objInt = new Integer(2); Apesar disso ter sido depreciado no Java 9
+		Object objInt = 2; 
+		System.out.println(objInt.getClass());
+		
+		
+		// Object objString = (boolean) true;  ou 
+		// Object objBoolean = new Boolean(true); Apesar disso ter sido depreciado no Java 9
+		Object objBoolean = true;
+		System.out.println(objBoolean.getClass());
+		
+		System.out.println();
+		
+		
+				
+		Aluno a1 = new Aluno();
+		a1.nome = "RENAN";
+		a1.curso = "Análise e Desenvolvimento de Sistemas";
+		
+		
+		Aluno a2 = new Aluno();
+		a2.nome = "Renan";
+		a1.curso = "Técnico em Informática";
+
+		/* Se um obj superclasse recebe/aponta pra um tipo filha então esse obj só 
+		 * pode enxergar/usar os mesmos atributos que eles tem em comum
+		 */
+		
+		// Isso
+		Object obj;
+		obj = a1;
+		// é o mesmo que isso
+		obj = new Aluno();
+		//obj ponto alguma coisa(obj.) só enxergam o que possuem em comum
+		
+		// Isso
+		Pessoa p1;
+		p1 = a1;
+		// é o mesmo que isso
+		p1 = new Aluno();
+		
+		//a1. Perceba que a1 herda de Pessoa portando enxerga tudo de Aluno como de Pessoa
+		//p1.  Já Pessoa só enxerga o que ele tem em comum com Aluno, ou seja o nome
+		
+		
+		
+		//Hierarquia Object > Pessoa > Aluno
+		if(new Aluno() instanceof Pessoa) {
+			System.out.println("Verdadeiro, pois Aluno herda de Pessoa");
+		}
+		
+		if(new Pessoa() instanceof Aluno) {
+			System.out.println("Falso, pois Pessoa é superclasse de Aluno"); //Nem exibe
+		}
+		
+		if(new Aluno() instanceof Object) {
+			System.out.println("Verdadeiro, pois qualquer classe é uma instancia de Object por tabela");
+		}
+		
+		System.out.println();
+		
 		
 		/* toString()
 		 * As classes podem sobrescrever este método para mostrarem
@@ -22,7 +95,7 @@ public class Main {
 		 * Sempre que você passa um obj para dentro do println() ele vai
 		 * chamar o toString do obj
 		 */
-		System.out.println();
+		System.out.println(a1); //Aluno [nome= RENAN, curso=Técnico em Informática, notas=[1, 2, 3]]
 		
 		
 		/* equals()
@@ -31,6 +104,10 @@ public class Main {
 		 * "==") Lembrando que o == compara se o endereço de memória dos
 		 * obj são os mesmos
 		 */
+		System.out.println(a1.nome.equals(a2.nome)); //false
+		System.out.println(a1.nome.equalsIgnoreCase(a2.nome)); //true pq ignora se é maiúscula ou minúscula
+		
+		
 		System.out.println();
 		
 		/* hashCode()
@@ -57,7 +134,6 @@ public class Main {
 		
 		
 		
-
 
 	}
 

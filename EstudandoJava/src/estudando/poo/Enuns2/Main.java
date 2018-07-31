@@ -2,7 +2,9 @@ package estudando.poo.Enuns2;
 
 /* Enuns possuem diversos métodos estáticos
  */
+
 public class Main {
+	
 	public static void main(String[] args) {
 
 		/* Quando você cria uma var de um tipo enum, significa que esta var só
@@ -25,7 +27,7 @@ public class Main {
 		/* Vamos supor que tenho uma string "Terça" e quero converter ela para
 		 * um tipo enum DiaDaSemanaPrioridade.TERCA 
 		 */
-		String dia = "TERCA"; //a String precia ser exatamante igual ao valor do enum
+		String dia = "TERCA"; //a String precisa ser exatamante igual ao valor do enum
 		DiaDaSemanaPrioridade s1 = DiaDaSemanaPrioridade.valueOf(dia);
 		System.out.println(s1 + " " + s1.getNum()); //exibe TERCA 3
 		
@@ -37,7 +39,7 @@ public class Main {
 
 	}
 
-	/* Se definir o enum como public, você pode acessar ela de forma, mas dai teria que
+	/* Se definir o enum como public, você pode acessar ele de fora, mas dai teria que
 	 * acessar ele como nome da classe . nome do enum . valor 
 	 * Ex. Main.DiaDaSemana.TERCA
 	 * 
@@ -73,5 +75,6 @@ public class Main {
 		}
 		
 	}
+	
 
 }

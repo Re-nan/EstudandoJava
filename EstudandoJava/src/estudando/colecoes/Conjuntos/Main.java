@@ -73,7 +73,7 @@ public class Main {
 		/* TreeSet
 		 * Nele os elementos são ordenados por algum critério no momento em que são inseridos no
 		 * conjunto, quando insere o elemento já vai pra posição correta
-		 * Tambés faz uso do critério com Comparable ou Comparator
+		 * Também faz uso do critério com Comparable ou Comparator
 		 */
 		Set conjunto3 = new TreeSet();
 		conjunto3.add("R");
@@ -85,7 +85,7 @@ public class Main {
 		/* Por padrão se não definfirmos um critério, ele insere na ordem alfabética, mas por ser
 		 * um CONJUNTO também não retorna elementos duplicados
 		 * 
-		 * A classe String implmenta Comparable então por padrão ela ordena na ordem alfabética
+		 * A classe String implementa Comparable então por padrão ela ordena na ordem alfabética
 		 */
 		for(Object elemento : conjunto3){
 			System.out.println(elemento); //exibe C F G R

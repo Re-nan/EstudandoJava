@@ -1,12 +1,12 @@
-package estudando.colecoes.Generics;
+package estudando.colecoes.Generics1;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
 
-/* A partir da veersão 5 do java foi introduzindo os GENERICS
- * Os generics permitemr restringir os tipos de dados em coleções, só sabemos que todas as coleções
+/* A partir da versão 5 do java foi introduzindo os GENERICS
+ * Os generics permitem restringir os tipos de dados em coleções, só sabemos que todas as coleções
  * do java são genéricas, elas trabalham só com tipo Object, quando você usa generics você consegue
  * restringir um tipo de dado para um mais específico, então você não precisa trabalhar apenas com
  * Object e sim com o tipo de dado que você especificou

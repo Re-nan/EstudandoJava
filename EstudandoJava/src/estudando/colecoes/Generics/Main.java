@@ -1,4 +1,4 @@
-package estudando.colecoes.Generics1;
+package estudando.colecoes.Generics;
 
 import java.util.ArrayList;
 import java.util.Collections;

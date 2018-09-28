@@ -4,9 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-/* Utilizando expressões lambda na Collection API
- * 
- */
+// Utilizando expressões lambda na Collection API
 
 public class Main {
 

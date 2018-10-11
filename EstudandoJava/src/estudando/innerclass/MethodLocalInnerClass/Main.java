@@ -9,7 +9,7 @@ package estudando.innerclass.MethodLocalInnerClass;
  * a palavra final na criação da var, o código vai compilar normal mas se vc tentar alterar
  * o valor o compilador vai reclamar, resumindo: vc não pode mexer no valor de uma var
  * que você usa dentro de uma inner class
- * - Dificilmente é usado na prática
+ * - Dificilmente é usado na prática.
  */
 
 public class Main {

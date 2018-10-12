@@ -35,7 +35,7 @@ package estudando.innerclass.RegularInnerClass;
  * implementação de uma interface, vc só vai encontrar classes anônimas se você estiver
  * fazendo a implementação de uma interface que já existe ou se vc estiver declarando a 
  * classe anônima como uma subclasse de uma classe existente
- * - Ao realizar um desses dois procedimentos, geralmente é para sobreescrever o método
+ * - Ao realizar um desses dois procedimentos, geralmente é para sobrescrever o método
  * de uma classe mãe ou implementar o método de uma interface
  * - Ao se deparar com uma classe anônima a sua leitura deve ser a de que você está criando
  * uma classeAnonima que é uma subclasse da classe do Tipo onde está sendo criando a Anonima

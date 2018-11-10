@@ -24,7 +24,7 @@ package estudando.modificadores.DeAcesso;
  * 
  * 
  * - PROTECTED: indica que os atributos e métodos que foram declarados como protected poderam
- * serem acessados somente pela classe que o herdar
+ * serem acessados somente pela classe que o herdar e pelas classes quee stiverem no mesmo pacote
  * 
  * 
  * - PACKAGE(Sem especificar um modificador)
@@ -33,7 +33,9 @@ package estudando.modificadores.DeAcesso;
 public class Main {
 
 	public static void main(String[] args) {
-
+			Teste t = new Teste();
+			t.nome = "";
+			t.nnn = 9;
 	}
 	
 }

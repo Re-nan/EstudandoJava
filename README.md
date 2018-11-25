@@ -4,7 +4,7 @@ Projeto de estudo onde abordo os diversos elementos que compõe o Java e POO com
 
 <img src="http://ericsteinborn.com/github-for-cats/img/ironcat.png" height="150">
 
-**Jdk:** 10.0.1
+**Jdk:** 11.0.1
 
 **IDE:** Eclipse Photon
 

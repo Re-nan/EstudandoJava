@@ -20,7 +20,7 @@ public interface Calculator {
 	
 	
 	/* Criando um método estático, similar ao default, porém usa-se o modificador static, e a chamanda
-	 * tem ser pela própria interface, ex: Calculator.calculatePow2(10,2);
+	 * tem de ser pela própria interface, ex: Calculator.calculatePow2(10,2);
 	 */
 	static double calculatePow2(double x, int y) {
 		return Math.pow(x, y);

@@ -5,7 +5,7 @@ package estudando.poo.Interface3;
  * Para se autenticar não precisa ser Funcionário, mas sim Gerente, Diretor ou Cliente, logo podemos isolar
  * essa característica/recurso do sistema.
  * 
- * A solução foi criar uma interface que permite se auentenciar no sistema somente quem implementar ela
+ * A solução foi criar uma interface que permite se autenticar no sistema somente quem implementar ela
  * com isso eu atribuo ela somente para quem eu quero que se autentique no meu sistema, sendo assim
  * livrando da obrigação de que só pode logar quem for Funcionário
  * 

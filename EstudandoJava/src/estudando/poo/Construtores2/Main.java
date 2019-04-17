@@ -25,10 +25,7 @@ public class Main {
 		 * do tipo Programador
 		 */
 		Funcionario f2 = new Programador();
-		
-		
-		
-		
+
 	}
 
 }
